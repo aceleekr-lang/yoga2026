@@ -23,7 +23,7 @@ window.I18N.en.v2 = {
       { icon: "🪷", t: "Deep-dive 2-day session course", time: "FULL-PKG KRW 95,000 (early)", steps: ["09:30 Wristband & goods at HQ, store your luggage", "11:00 Opening group yoga → 12:30 lunch", "14:00 Session 1 — Guru Nagendra 'From Tradition to Science' or Savitri 'Sattvic Diet'", "16:00 Session 2 — Manjunath 'East & West on Meditation' or Vasudha 'Ayurveda & Yoga'", "18:30 Concert → 20:00 lodging shuttle (Doraejae / Bohyeon)", "07:30 Next-morning session — Hatha, forest walk, cyclic meditation or slow jogging", "10:00 Signature Trip A/B (TRAVEL-PKG) or 11:00 shuttle home"] }
     ]
   },
-  mandala: { title: "Find the Golden Mandalas", sub: "Collect 5 golden mandalas hidden around the venue by QR and print a free 4-cut photo at booth 35", btn: "Open the mission app ✨", spots: ["Near the main stage", "Playground", "Food zone", "Parasol rest zone", "Booth line A"] },
+  mandala: { title: "Find the Golden Mandalas", sub: "Collect 5 golden mandalas hidden around the venue by QR\nand print a free 4-cut photo at booth 35", btn: "Open the mission app ✨", spots: ["Near the main stage", "Playground", "Food zone", "Parasol rest zone", "Booth line A"] },
   photo: { title: "Photo spots", items: ["10th birthday cake photo zone", "Yoga mats under the shade on the lawn", "Main stage at sunset", "Booths 35–40 decorated with balloons and chiffon"] },
   map: {
     title: "Venue map", sub: "Tap a number for booth details",
