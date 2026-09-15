@@ -270,7 +270,7 @@ window.I18N.en = {
       ["FULL-PKG (2 days, 1 night)", "210,000", "95,000", "75,000", "4 sessions + Well Ground + concert + shuttle + goods + lodging + Sunday breakfast"],
       ["SAT-PKG (Saturday only)", "140,000", "65,000", "45,000", "3 Saturday sessions + Well Ground + concert + shuttle + goods"]
     ],
-    ticketNotes: ["Group rates: partner groups of 10+ / cooperating groups of 40+ (prices in KRW)", "Goods (2026 eco bag) for paid participants in payment order while supplies last; color random (navy / deep green)", "One ticket = one participant. Enter the actual participant's name and phone number", "Walk-ins welcome, but sessions are available to SAT-PKG holders only, subject to remaining seats"],
+    ticketNotes: ["Goods (2026 eco bag) for paid participants in payment order while supplies last; color random (navy / deep green)", "One ticket = one participant. Enter the actual participant's name and phone number", "Walk-ins welcome, but sessions are available to SAT-PKG holders only, subject to remaining seats"],
     ticketBtn: "Register on the official website",
     freeTitle: "Enjoy for free, no ticket needed",
     free: ["Opening performances & K-Yoga Vibe group practice", "The Well Ground (booths · playground · food zone)", "Yoga Culture Concert (J-Tong · Lee Sang-mi and more)"],
