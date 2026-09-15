@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>골든만다라를 찾아라 · 밀양국제요가컨퍼런스</title>
+<meta name="description" content="행사장 5곳에 숨은 골든만다라를 QR로 모으면 35번 부스에서 인생네컷 무료 출력 — 제10회 밀양국제요가컨퍼런스 미션 앱">
+<meta name="theme-color" content="#fff6d9">
+<meta property="og:title" content="골든만다라를 찾아라 ✨">
+<meta property="og:image" content="../img/poster.jpg">
+<link rel="icon" href="../img/icon_mandala.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@400;500;700&family=Noto+Sans+Devanagari:wght@400;500;700&family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#2a3a8a;--ink:#25304e;--muted:#66708c;--sky:#cde9f6;--sky3:#e8f5fb;--grass:#7fc241;--leaf:#3e9e4f;--mint:#dff2d6;--cream:#fff8ea;--gold:#e5b640;--gold2:#8a6a10;--goldbg:#fff6d9;--coral:#f26d6d;--sh:0 8px 24px rgba(42,58,138,.10);--r:22px;
+  --fh:"Jua","Fredoka","Noto Sans KR","Noto Sans Devanagari",sans-serif;--fb:"Noto Sans KR","Noto Sans Devanagari",system-ui,sans-serif}
+html[lang=en]{--fh:"Fredoka","Jua",sans-serif}
+html[lang=hi]{--fh:"Noto Sans Devanagari","Fredoka",sans-serif;--fb:"Noto Sans Devanagari",system-ui,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{font-family:var(--fb);color:var(--ink);background:var(--cream) url(../img/hero_bg.jpg) center top/100% auto no-repeat;word-break:keep-all;overflow-wrap:anywhere;-webkit-tap-highlight-color:transparent}
+.app{max-width:480px;margin:0 auto;min-height:100%;padding:0 16px 40px}
+h1,h2,h3{font-family:var(--fh);font-weight:500;color:var(--navy);line-height:1.2}
+header{display:flex;align-items:center;justify-content:space-between;padding:12px 0 6px}
+header a img{height:16px;display:block}
+.lang{display:flex;background:#fff;border-radius:999px;padding:3px;box-shadow:var(--sh)}
+.lang button{border:0;background:none;font-family:var(--fh);font-size:12.5px;padding:4px 9px;border-radius:999px;color:var(--muted)}
+.lang button.on{background:var(--gold);color:#fff}
+.hero{text-align:center;padding:18px 0 6px}
+.hero .big{width:150px;height:150px;margin:0 auto;position:relative}
+.hero .big img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 8px 16px rgba(229,182,64,.45));animation:float 4s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-6px)}}
+.hero h1{font-size:30px;margin-top:8px}
+.hero p{color:var(--muted);font-size:14px;margin-top:6px}
+.card{background:#fff;border-radius:var(--r);box-shadow:var(--sh);padding:16px;margin-top:14px}
+.card.gold{background:linear-gradient(135deg,var(--goldbg),#fff);border:2px solid var(--gold)}
+.prog{display:flex;align-items:center;gap:14px}
+.ring{width:74px;height:74px;flex:0 0 74px;position:relative}
+.ring svg{width:100%;height:100%;transform:rotate(-90deg)}
+.ring circle{fill:none;stroke-width:8}
+.ring .bg{stroke:#f1ece0}.ring .fg{stroke:var(--gold);stroke-linecap:round;transition:stroke-dasharray .6s}
+.ring b{position:absolute;inset:0;display:grid;place-items:center;font-family:"Fredoka";font-size:22px;color:var(--gold2)}
+.prog h2{font-size:19px}.prog p{font-size:13px;color:var(--muted);margin-top:3px}
+.slots{display:flex;justify-content:center;gap:8px;margin-top:14px}
+.slot{width:56px;height:56px;border-radius:50%;background:#f4f0e6;border:2px dashed #dccfa8;display:grid;place-items:center;position:relative;font-family:"Fredoka";color:#c8bb95;font-size:15px}
+.slot img{width:46px;height:46px;object-fit:contain;filter:grayscale(1) opacity(.18)}
+.slot.got{border:2px solid var(--gold);background:var(--goldbg);animation:pop .5s}
+.slot.got img{filter:none}
+.slot.got::after{content:"✓";position:absolute;right:-4px;bottom:-4px;width:20px;height:20px;border-radius:50%;background:var(--leaf);color:#fff;font-size:12px;display:grid;place-items:center;border:2px solid #fff}
+@keyframes pop{0%{transform:scale(.6)}60%{transform:scale(1.15)}100%{transform:scale(1)}}
+.spot{display:flex;align-items:center;gap:12px;padding:11px 0;border-top:1px solid #f1ede2}
+.spot:first-of-type{border-top:0}
+.spot .n{width:34px;height:34px;flex:0 0 34px;border-radius:50%;display:grid;place-items:center;font-family:"Fredoka";font-weight:700;background:#f4f0e6;color:#b1a684}
+.spot.got .n{background:var(--gold);color:#fff}
+.spot b{display:block;font-size:15px}.spot small{color:var(--muted);font-size:12.5px}
+.spot .st{margin-left:auto;font-size:12px;font-family:var(--fh);padding:3px 10px;border-radius:999px;background:#f1ede2;color:#9a8f6d;white-space:nowrap}
+.spot.got .st{background:var(--mint);color:var(--leaf)}
+.how li{font-size:14px;margin:8px 0 0 20px;color:var(--ink)}
+.btn{display:block;width:100%;border:0;border-radius:999px;padding:13px;font-family:var(--fh);font-size:16px;color:#fff;background:var(--gold);margin-top:14px;box-shadow:0 6px 16px rgba(229,182,64,.35)}
+.btn.navy{background:var(--navy);box-shadow:none}
+.btn.ghost{background:#fff;color:var(--navy);border:2px solid var(--navy);box-shadow:none}
+.btn:disabled{background:#d9d3c4;box-shadow:none}
+.link{display:block;text-align:center;margin-top:12px;font-size:13px;color:var(--muted);text-decoration:underline;background:none;border:0;width:100%}
+.toast{position:fixed;left:50%;bottom:30px;transform:translateX(-50%) translateY(20px);background:var(--navy);color:#fff;padding:12px 18px;border-radius:999px;font-size:14px;opacity:0;transition:.3s;pointer-events:none;z-index:50;max-width:90%;text-align:center}
+.toast.on{opacity:1;transform:translateX(-50%)}
+/* found overlay */
+.ov{position:fixed;inset:0;background:rgba(42,58,138,.55);display:none;place-items:center;z-index:60;padding:20px}
+.ov.on{display:grid}
+.ov .box{background:#fff;border-radius:28px;padding:26px 20px;text-align:center;max-width:360px;width:100%;position:relative;overflow:hidden}
+.ov .box img{width:130px;height:130px;object-fit:contain;animation:spin 1.2s ease-out}
+@keyframes spin{from{transform:rotate(-180deg) scale(.2);opacity:0}to{transform:rotate(0) scale(1);opacity:1}}
+.ov h2{font-size:24px;margin-top:8px}.ov p{color:var(--muted);font-size:14px;margin-top:6px}
+.ov .box input{width:100%;font-size:26px;text-align:center;letter-spacing:8px;padding:10px;border:2px solid var(--sky);border-radius:14px;margin-top:12px;font-family:"Fredoka"}
+.conf{position:absolute;top:-10px;font-size:18px;animation:fall 2.2s linear forwards}
+@keyframes fall{to{transform:translateY(420px) rotate(360deg);opacity:0}}
+/* complete */
+.done{text-align:center}
+.done .big img{width:170px;height:170px;object-fit:contain;filter:drop-shadow(0 10px 20px rgba(229,182,64,.5))}
+.done h1{font-size:28px;margin-top:6px}
+.done .code{font-family:"Fredoka";font-size:34px;letter-spacing:6px;color:var(--gold2);background:#fff;border-radius:16px;padding:10px;margin:14px auto 0;border:2px dashed var(--gold);max-width:260px}
+.done .meta{font-size:12.5px;color:var(--muted);margin-top:8px}
+.used{background:var(--mint);color:var(--leaf);border-radius:16px;padding:14px;margin-top:14px;font-family:var(--fh);font-size:18px}
+.staff{font-size:11.5px;color:#b1a684;margin-top:10px}
+footer{text-align:center;font-size:11.5px;color:#9a9480;margin-top:26px;line-height:1.6}
+</style>
+</head>
+<body>
+<div class="app">
+<header><a href="../index.html"><img src="../img/logo_c.png" alt="밀양국제요가컨퍼런스"></a><div class="lang" id="lang"></div></header>
+<main id="main"></main>
+<footer id="foot"></footer>
+</div>
+<div class="toast" id="toast"></div>
+<div class="ov" id="ov"></div>
+<script>
+const SPOTS={1:"m7k2",2:"r4q9",3:"z2p6",4:"h8w3",5:"t5n1"};   // 스팟 번호 → QR 키(현장 표지판 코드)
+const STAFF_PIN="1003";                                        // 35번 부스 직원 수령 확인 PIN (10월 3일)
+const I18N={
+ko:{title:"골든만다라를 찾아라",sub:"행사장 5곳에 숨은 황금 만다라를 QR로 모으면 35번 부스에서 인생네컷 무료 출력",
+ prog:["아직 시작 전","좋아요, 시작!","순조로워요","절반 넘었어요","하나만 더!","완성!"],collected:"개 모음",
+ spotsT:"만다라가 숨은 곳",spots:["메인무대 근처","플레이그라운드","푸드존","파라솔 휴게존","부스라인 A"],
+ hint:["무대 앞 잔디밭 주변을 둘러보세요","놀이터 기구 근처","푸드 트럭·테이블 근처","파라솔과 텐트 사이","1~20번 부스 라인 어딘가"],
+ found:"찾음",notyet:"미발견",howT:"이렇게 놀아요",how:["행사장을 돌며 황금 만다라 표지판을 찾으세요","표지판의 QR을 휴대폰 카메라로 찍으면 이 앱에 자동 저장","5개를 모으면 완성 화면이 나와요","35번 부스에서 완성 화면을 보여주고 인생네컷 무료 출력!"],
+ manual:"QR이 안 찍히면 코드 직접 입력",manualT:"표지판의 4자리 코드",ok:"확인",cancel:"닫기",wrong:"코드가 맞지 않아요",already:"이미 모은 만다라예요",
+ gotT:"골든만다라 발견!",gotP:n=>`${n}번째 만다라를 모았어요`,
+ doneT:"골든만다라 완성!",doneP:"35번 부스에서 이 화면을 보여주세요",codeT:"수령 코드",at:"완성",staffBtn:"직원 확인 (인생네컷 수령)",pinT:"직원 PIN 입력",pinWrong:"PIN이 맞지 않아요",usedT:"인생네컷 수령 완료 ✓",usedP:"즐거운 하루 보내세요!",
+ guide:"행사 안내 앱으로",share:"친구에게 알리기",shareTxt:"밀양국제요가컨퍼런스 골든만다라 미션! 5개 찾고 인생네컷 받자",
+ foot:"주최 밀양시 · 주관 비베카요가 · 골든만다라 미션 운영 가곡원류 (35번 부스)",staff:"※ 직원용: 수령 확인은 35번 부스 담당자만 처리합니다"},
+en:{title:"Find the Golden Mandalas",sub:"Collect the 5 golden mandalas hidden around the venue by QR and print a free 4-cut photo at booth 35",
+ prog:["Not started","Nice, let's go!","Going well","Over halfway","Just one more!","Complete!"],collected:"collected",
+ spotsT:"Where they hide",spots:["Near the main stage","Playground","Food zone","Parasol rest zone","Booth line A"],
+ hint:["Look around the lawn in front of the stage","Near the playground equipment","Around the food trucks and tables","Between the parasols and tents","Somewhere along booths 1–20"],
+ found:"Found",notyet:"Not yet",howT:"How to play",how:["Walk the venue and look for golden mandala signs","Scan the QR on the sign with your phone camera — it saves here automatically","Collect all 5 to unlock the completion screen","Show it at booth 35 and print your free 4-cut photo!"],
+ manual:"QR not working? Enter the code",manualT:"4-character code on the sign",ok:"OK",cancel:"Close",wrong:"That code doesn't match",already:"You already have this one",
+ gotT:"Golden Mandala found!",gotP:n=>`Mandala #${n} collected`,
+ doneT:"All 5 collected!",doneP:"Show this screen at booth 35",codeT:"Pickup code",at:"Completed",staffBtn:"Staff check (photo pickup)",pinT:"Enter staff PIN",pinWrong:"Wrong PIN",usedT:"Photo strip collected ✓",usedP:"Enjoy the rest of your day!",
+ guide:"Back to the event guide",share:"Tell a friend",shareTxt:"Golden Mandala hunt at Miryang International Yoga Conference — find 5, get a free photo strip!",
+ foot:"Hosted by Miryang City · Organized by Viveka Yoga · Mission run by Gagok Wonryu (booth 35)",staff:"※ Staff: pickup confirmation is done by booth 35 staff only"},
+hi:{title:"गोल्डन मंडल खोजें",sub:"स्थल में 5 जगह छिपे सुनहरे मंडल QR से इकट्ठा करें और स्टॉल 35 पर निःशुल्क 4-कट फ़ोटो पाएँ",
+ prog:["अभी शुरू नहीं","बढ़िया, शुरू!","अच्छा चल रहा है","आधे से ज़्यादा","बस एक और!","पूरा!"],collected:"इकट्ठे",
+ spotsT:"कहाँ छिपे हैं",spots:["मुख्य मंच के पास","खेल का मैदान","फ़ूड ज़ोन","छतरी विश्राम क्षेत्र","स्टॉल लाइन A"],
+ hint:["मंच के सामने घास के मैदान के आसपास देखें","खेल उपकरणों के पास","फ़ूड ट्रक और मेज़ों के पास","छतरियों और टेंट के बीच","स्टॉल 1–20 की लाइन में कहीं"],
+ found:"मिला",notyet:"अभी नहीं",howT:"कैसे खेलें",how:["स्थल में घूमकर सुनहरे मंडल के बोर्ड खोजें","बोर्ड का QR फ़ोन कैमरे से स्कैन करें — यहाँ अपने आप सेव होगा","5 इकट्ठा करने पर पूर्णता स्क्रीन खुलेगी","स्टॉल 35 पर दिखाएँ और निःशुल्क 4-कट फ़ोटो पाएँ!"],
+ manual:"QR काम न करे तो कोड लिखें",manualT:"बोर्ड पर लिखा 4-अक्षर कोड",ok:"ठीक",cancel:"बंद करें",wrong:"कोड मेल नहीं खाता",already:"यह पहले से है",
+ gotT:"गोल्डन मंडल मिला!",gotP:n=>`मंडल #${n} इकट्ठा हुआ`,
+ doneT:"सभी 5 इकट्ठे!",doneP:"यह स्क्रीन स्टॉल 35 पर दिखाएँ",codeT:"पिकअप कोड",at:"पूरा हुआ",staffBtn:"स्टाफ़ जाँच (फ़ोटो पिकअप)",pinT:"स्टाफ़ PIN डालें",pinWrong:"PIN ग़लत है",usedT:"फ़ोटो स्ट्रिप मिल गई ✓",usedP:"दिन का आनंद लें!",
+ guide:"आयोजन गाइड पर वापस",share:"दोस्त को बताएँ",shareTxt:"मिर्यांग योग सम्मेलन में गोल्डन मंडल खोज — 5 खोजें, निःशुल्क फ़ोटो पाएँ!",
+ foot:"आयोजक मिर्यांग नगर · संचालक विवेका योग · मिशन संचालन गागोक वोनर्यु (स्टॉल 35)",staff:"※ स्टाफ़: पिकअप की पुष्टि केवल स्टॉल 35 का स्टाफ़ करता है"}
+};
+const KEY="mandala_v1";
+let S=load(),lang=localStorage.getItem("lang2")||"ko";if(!I18N[lang])lang="ko";
+function load(){try{return Object.assign({got:[],code:null,doneAt:null,used:null},JSON.parse(localStorage.getItem(KEY)||"{}"))}catch(e){return{got:[],code:null,doneAt:null,used:null}}}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const T=()=>I18N[lang];
+function toast(m){const t=document.getElementById("toast");t.textContent=m;t.classList.add("on");clearTimeout(t._t);t._t=setTimeout(()=>t.classList.remove("on"),2200)}
+function fmt(d){return new Date(d).toLocaleString(lang==="ko"?"ko-KR":lang==="hi"?"hi-IN":"en-GB",{month:"numeric",day:"numeric",hour:"2-digit",minute:"2-digit"})}
+function collect(n,k,quiet){n=+n;if(!SPOTS[n]||SPOTS[n]!==String(k).toLowerCase())return toast(T().wrong);
+  if(S.got.includes(n)){if(!quiet)toast(T().already);return render()}
+  S.got.push(n);S.got.sort();if(S.got.length===5&&!S.doneAt){S.doneAt=Date.now();S.code=Array.from({length:4},()=>"ABCDEFGHJKMNPQRSTUVWXYZ23456789"[Math.floor(Math.random()*31)]).join("")}save();
+  showFound(n)}
+function showFound(n){const t=T(),ov=document.getElementById("ov");
+  ov.innerHTML=`<div class="box">${Array.from({length:18},(_,i)=>`<span class="conf" style="left:${5+i*5}%;animation-delay:${(i%6)*.15}s">${["✨","🌟","💛","🪷"][i%4]}</span>`).join("")}<img src="../img/icon_mandala.png" alt=""><h2>${esc(t.gotT)}</h2><p>${esc(t.gotP(S.got.length))}</p><button class="btn" id="ovok">${esc(t.ok)}</button></div>`;
+  ov.classList.add("on");document.getElementById("ovok").onclick=()=>{ov.classList.remove("on");render()}}
+function manual(){const t=T(),ov=document.getElementById("ov");
+  ov.innerHTML=`<div class="box"><h2>${esc(t.manualT)}</h2><input id="mc" maxlength="4" autocapitalize="none" autocomplete="off" placeholder="····"><button class="btn navy" id="mok">${esc(t.ok)}</button><button class="link" id="mcancel">${esc(t.cancel)}</button></div>`;
+  ov.classList.add("on");const inp=document.getElementById("mc");inp.focus();
+  const go=()=>{const v=inp.value.trim().toLowerCase();const n=Object.keys(SPOTS).find(i=>SPOTS[i]===v);ov.classList.remove("on");if(!n)return toast(t.wrong);collect(n,v)};
+  document.getElementById("mok").onclick=go;inp.onkeydown=e=>{if(e.key==="Enter")go()};document.getElementById("mcancel").onclick=()=>ov.classList.remove("on")}
+function staff(){const t=T(),ov=document.getElementById("ov");
+  ov.innerHTML=`<div class="box"><h2>${esc(t.pinT)}</h2><input id="pin" maxlength="4" inputmode="numeric" type="password" placeholder="····"><button class="btn navy" id="pok">${esc(t.ok)}</button><button class="link" id="pcancel">${esc(t.cancel)}</button></div>`;
+  ov.classList.add("on");const inp=document.getElementById("pin");inp.focus();
+  const go=()=>{ov.classList.remove("on");if(inp.value!==STAFF_PIN)return toast(t.pinWrong);S.used=Date.now();save();render()};
+  document.getElementById("pok").onclick=go;inp.onkeydown=e=>{if(e.key==="Enter")go()};document.getElementById("pcancel").onclick=()=>ov.classList.remove("on")}
+async function share(){const t=T();const d={title:t.title,text:t.shareTxt,url:location.origin+location.pathname};try{if(navigator.share)await navigator.share(d);else{await navigator.clipboard.writeText(d.url);toast("URL copied")}}catch(e){}}
+function render(){const t=T(),n=S.got.length,m=document.getElementById("main");document.documentElement.lang=lang;
+  document.getElementById("lang").innerHTML=["ko","en","hi"].map(l=>`<button data-l="${l}" class="${l===lang?"on":""}">${{ko:"한국어",en:"EN",hi:"हिन्दी"}[l]}</button>`).join("");
+  document.getElementById("foot").innerHTML=esc(t.foot);
+  if(n===5){m.innerHTML=`<div class="card gold done"><div class="big"><img src="../img/icon_mandala.png" alt=""></div><h1>${esc(t.doneT)}</h1><p style="color:var(--muted);font-size:14px;margin-top:4px">${esc(t.doneP)}</p>
+    <div class="slots">${[1,2,3,4,5].map(i=>`<div class="slot got"><img src="../img/icon_mandala.png" alt=""></div>`).join("")}</div>
+    ${S.used?`<div class="used">${esc(t.usedT)}<div style="font-size:13px;font-family:var(--fb);color:var(--leaf);margin-top:4px">${esc(t.usedP)} · ${fmt(S.used)}</div></div>`:
+    `<div style="font-size:12.5px;color:var(--muted);margin-top:14px">${esc(t.codeT)}</div><div class="code">${esc(S.code||"----")}</div><div class="meta">${esc(t.at)} ${fmt(S.doneAt)}</div><button class="btn navy" id="staffb">${esc(t.staffBtn)}</button><div class="staff">${esc(t.staff)}</div>`}</div>
+    <button class="btn ghost" id="shareb">📣 ${esc(t.share)}</button><a class="link" href="../index.html">${esc(t.guide)}</a>`;
+    const sb=document.getElementById("staffb");if(sb)sb.onclick=staff;document.getElementById("shareb").onclick=share;return}
+  const pct=n/5,c=2*Math.PI*33;
+  m.innerHTML=`<div class="hero"><div class="big"><img src="../img/icon_mandala.png" alt=""></div><h1>${esc(t.title)}</h1><p>${esc(t.sub)}</p></div>
+  <div class="card gold"><div class="prog"><div class="ring"><svg viewBox="0 0 74 74"><circle class="bg" cx="37" cy="37" r="33"/><circle class="fg" cx="37" cy="37" r="33" stroke-dasharray="${c*pct} ${c}"/></svg><b>${n}/5</b></div><div><h2>${esc(t.prog[n])}</h2><p>${n} ${esc(t.collected)}</p></div></div>
+    <div class="slots">${[1,2,3,4,5].map(i=>`<div class="slot ${S.got.includes(i)?"got":""}">${S.got.includes(i)?`<img src="../img/icon_mandala.png" alt="">`:i}</div>`).join("")}</div></div>
+  <div class="card"><h2 style="font-size:18px;margin-bottom:6px">📍 ${esc(t.spotsT)}</h2>${t.spots.map((s,i)=>{const g=S.got.includes(i+1);return`<div class="spot ${g?"got":""}"><span class="n">${g?"✓":i+1}</span><span><b>${esc(s)}</b><small>${esc(t.hint[i])}</small></span><span class="st">${esc(g?t.found:t.notyet)}</span></div>`}).join("")}
+    <button class="link" id="manualb">${esc(t.manual)}</button></div>
+  <div class="card how"><h2 style="font-size:18px">🎈 ${esc(t.howT)}</h2><ol>${t.how.map(h=>`<li>${esc(h)}</li>`).join("")}</ol></div>
+  <a class="btn ghost" style="text-decoration:none;text-align:center" href="../index.html">${esc(t.guide)}</a>`;
+  document.getElementById("manualb").onclick=manual}
+document.getElementById("lang").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;lang=b.dataset.l;localStorage.setItem("lang2",lang);render()});
+// URL 처리: ?s=번호&k=키 (QR) · ?reset=1 (테스트 초기화)
+const q=new URLSearchParams(location.search);
+if(q.get("reset")==="1"){localStorage.removeItem(KEY);S=load()}
+render();
+if(q.get("s")&&q.get("k")){history.replaceState(null,"",location.pathname);collect(q.get("s"),q.get("k"))}
+</script>
+</body>
+</html>
