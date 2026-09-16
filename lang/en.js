@@ -43,7 +43,7 @@ window.I18N.en = {
     { img: "banner6.jpg", t: "A thousand together · Opening Ceremony", d: "Welcome performances and the K-Yoga Vibe group practice open the festival. Everyone welcome." },
     { img: "banner3.jpg", t: "Teachers from Korea & India · Yoga Sessions", d: "Hands-on sessions led by 14 teachers including Guru H.R. Nagendra, Chancellor of S-VYASA." },
     { img: "banner5.jpg", t: "Open all day · The Well Ground", d: "An open-market space of experience booths, shops, food zone and playground." },
-    { img: "banner4.jpg", t: "Sunset on the lawn · Yoga Culture Concert", d: "Rapper J-Tong, singer Lee Sang-mi, Indian classical dance and Miryang traditional performance." }
+    { img: "banner4.jpg", t: "Sunset on the lawn · Yoga Culture Concert", d: "Rapper J-Tong, singer Lee Sang-mi, and yoga performances by TEAM.ACLOW and TEAM.Korea Rhythmic." }
   ],
   about: {
     title: "About the Conference",
@@ -68,7 +68,7 @@ window.I18N.en = {
       { icon: "🎉", t: "Opening & Closing", d: "Welcome performances, the K-Yoga Vibe group practice (TEAM. ACLOW) to open, and a closing ceremony with lucky draw" },
       { icon: "🧘", t: "Yoga Sessions", d: "From traditional Indian yoga to science-based yoga therapy, meditation, Ayurveda and modern styles — hands-on, ticketed, limited seats" },
       { icon: "🎪", t: "The Well Ground", d: "Wellness experiences, multi-shop market, Miryang healthy food, Korea–India cultural experiences, retro playground (free)" },
-      { icon: "🎶", t: "Yoga Culture Concert", d: "The healing power of yoga and meditation through music, dance and performance — an interactive stage (free)" },
+      { icon: "🎶", t: "Yoga Culture Concert", d: "J-Tong · Lee Sang-mi — the healing power of yoga and meditation through music, dance and performance, a participatory stage for everyone (free)" },
       { icon: "🏔️", t: "Miryang Signature Trip", d: "Optional day trip after the Sunday morning session — Yeongnam Alps trekking or a heritage tour" }
     ],
     hostTitle: "Host & Organizer",
@@ -76,10 +76,10 @@ window.I18N.en = {
     organizer: { t: "Organizer · Viveka Yoga", d: "The Korean branch of Vivekananda Health Global (VHG), the global partner of S-VYASA (Swami Vivekananda Yoga Anusandhana Samsthana), India. Running education programs in Korea since 2011, it signed an MOU with Miryang City in 2016 to build an international yoga city and serves as a bridge for Korea–India yoga and wellness exchange." },
     partnersTitle: "Partners",
     partnerGroups: [
-      ["Cooperation", "Embassy of India · Indian Cultural Centre Seoul · Korea Yoga Alliance · Circles · Wonkwang Digital University Dept. of Yoga & Meditation · Korea Healing Yoga Association · Korea Rhythmic Yoga Association"],
+      ["Cooperation", "Embassy of India · Indian Cultural Centre Seoul · Korea Yoga Alliance · Circles · Wonkwang Digital University Dept. of Yoga & Meditation · Korea Healing Yoga Association · Korea Rhythmic Yoga Association · International Integrative Therapy Society"],
       ["International", "S-VYASA University · Vivekananda Health Global (VHG)"],
-      ["Partners", "Anahata Yoga · Gwangmyeong Yoga Heal · Atma Yoga (Yeoju/Yangpyeong) · Prajna Yoga · The Stretch · Atma Sangam Yoga Center · SMB Wellness · Korea Wellness Institute"],
-      ["Sponsors", "Recovering · Sopung Tour"]
+      ["Partners", "Anahata Yoga · Gwangmyeong Yoga Heal · Atma Yoga (Yeoju/Yangpyeong) · Prajna Yoga · The Stretch · Atma Sangam Yoga Center · SMB Wellness · Korea Wellness Institute · Jeong Su-kyung Yoga · Yogaharin Yoga"],
+      ["Sponsors", "Recovering · Sopung Tour · Moksha"]
     ],
     historyTitle: "Ten years of the journey",
     history: [
@@ -101,16 +101,16 @@ window.I18N.en = {
     freeBadge: "Free", paidBadge: "Ticketed", pickOne: "Choose 1 of 5",
     day1: "Oct 3 (Sat)", day2: "Oct 4 (Sun)",
     d1: [
-      { time: "09:00 – 11:10", t: "Shuttle bus · City bus No. 22", d: "Miryang Station ↔ Theme Park, about 30 min", free: true },
+      { time: "09:00 – 11:10", t: "Shuttle bus · City bus No. 22", d: "Miryang Station ↔ Sunshine Miryang Theme Park, about 30 min", free: true },
       { time: "09:30 – 20:30", t: "Operations HQ open", d: "Information · check-in · luggage storage", free: true },
-      { time: "10:00 – 18:30", t: "The Well Ground open", d: "Experience & market booths and food zone all day", free: true },
-      { time: "11:00 – 12:30", t: "Opening Ceremony & K-Yoga Vibe group practice", d: "Welcome performances and a thousand-person group yoga with TEAM. ACLOW", free: true },
-      { time: "12:30 – 14:00", t: "Lunch", d: "Food zone · Mahat Café" },
+      { time: "10:00 – 18:30", t: "The Well Ground open", d: "Experience & market booths and the food zone", free: true },
+      { time: "11:00 – 12:30", t: "Opening Ceremony & K-Yoga Vibe group practice", d: "Opening ceremony and a thousand-person group yoga with TEAM.ACLOW", free: true },
+      { time: "12:30 – 14:00", t: "Lunch", d: "Food zone · 20% off at Mahat Café with your wristband" },
       { time: "14:00 – 15:40", t: "Yoga Sessions · Part 1", d: "Choose 1 of 5 sessions", slot: 0 },
       { time: "15:40 – 16:00", t: "Break", d: "" },
       { time: "16:00 – 17:40", t: "Yoga Sessions · Part 2", d: "Choose 1 of 5 sessions", slot: 1 },
       { time: "17:40 – 18:30", t: "Dinner", d: "" },
-      { time: "18:30 – 20:00", t: "Yoga Culture Concert", d: "J-Tong · Lee Sang-mi · Indian classical dance · Miryang traditional performance · team shows", free: true },
+      { time: "18:30 – 20:00", t: "Yoga Culture Concert", d: "J-Tong · Lee Sang-mi · TEAM.ACLOW · TEAM.Korea Rhythmic", free: true },
       { time: "20:00", t: "Shuttles depart", d: "Venue → Miryang Station / Doraejae Recreation Forest / Bohyeon Training Center" }
     ],
     d2: [
@@ -128,9 +128,9 @@ window.I18N.en = {
         ["4 · Asana Field (outdoor lawn · 120)", "Lee Jae-hee", "Ashtanga Core Routine & One-Point Tips"],
         ["5 · Asana Field (outdoor lawn · 120)", "Park Seung-tae", "Asana Flow Meditation"] ] },
       { label: "Oct 3 · 16:00 – 17:40 · Session Part 2", items: [
-        ["1 · Sattva I (indoor · 90)", "Manjunath Sharma", "Eastern & Western Views on Meditation: Experiencing the Energy Body"],
+        ["1 · Sattva I (indoor · 90)", "Manjunath Sharma", "Eastern & Western Views on Meditation: Experiencing the Energy Body (Pranic Energization Technique)"],
         ["2 · Ananda (rooftop · 90)", "Satbir Singh Rana", "Grounding Hatha Yoga"],
-        ["3 · Classroom (indoor · 50)", "Vasudha Sharma", "Ayurveda & Yoga for Stress, Sleep and Burnout"],
+        ["3 · Classroom (indoor · 50)", "Vasudha Sharma", "An Integrated Ayurveda & Yoga Approach to Stress, Sleep and Burnout"],
         ["4 · Asana Field (outdoor lawn · 120)", "Nadia", "Recovering Total Move 2026"],
         ["5 · Asana Field (outdoor lawn · 120)", "Big Crystal Meditation Team", "Prana Meditation"] ] },
       { label: "Oct 4 · 07:30 – 08:30 · Morning sessions (by lodging)", items: [
@@ -142,18 +142,18 @@ window.I18N.en = {
     speakersTitle: "Teachers",
     speakers: [
       { img: "sp_D1-14-SV1.jpg", n: "Guru H.R. Nagendra", o: "Chancellor, S-VYASA University", t: "From Tradition to Science: Understanding Yoga" },
-      { img: "sp_D1-16-SV1.jpg", n: "Manjunath Sharma", o: "Vice-Chancellor, S-VYASA", t: "Eastern & Western Views on Meditation" },
+      { img: "sp_D1-16-SV1.jpg", n: "Manjunath Sharma", o: "Vice-Chancellor, S-VYASA Yoga University", t: "Eastern & Western Views on Meditation: Experiencing the Energy Body (Pranic Energization Technique)" },
       { img: "sp_D1-14-RT1.jpg", n: "Shin Ju-young", o: "Freelance yoga teacher", t: "Awakening Movement for Deeper Practice" },
       { img: "sp_D1-14-LN1.jpg", n: "Park Seung-tae", o: "Professor, Wonkwang Digital Univ. Yoga & Meditation", t: "Asana Flow Meditation" },
       { img: "sp_D1-14-LN2.jpg", n: "Lee Jae-hee", o: "Education Lead, Korea Yoga Alliance", t: "Ashtanga Core Routine & One-Point Tips" },
       { img: "sp_D1-14-ED1.jpg", n: "Savitri Rathore", o: "Education Lead, Viveka Yoga", t: "Sattvic Yogic Diet · Cyclic Meditation" },
       { img: "sp_D1-16-RT1.jpg", n: "Satbir Singh Rana", o: "Director, Om Yoga Academy Korea", t: "Grounding Hatha Yoga" },
-      { img: "sp_D1-16-ED1.jpg", n: "Vasudha Sharma", o: "Medical Services Director, Vivekananda Health Global", t: "Ayurveda & Yoga for Stress, Sleep and Burnout" },
+      { img: "sp_D1-16-ED1.jpg", n: "Vasudha Sharma", o: "Medical Services Director, Vivekananda Health Global (VHG)", t: "An Integrated Ayurveda & Yoga Approach to Stress, Sleep and Burnout" },
       { img: "sp_D1-16-LN2.jpg", n: "Nadia", o: "Founder, Nadia Yoga", t: "Recovering Total Move 2026" },
       { img: "sp_D1-16-LN1.jpg", n: "Big Crystal Meditation Team", o: "Korea Healing Yoga Association", t: "Prana Meditation" },
       { img: "sp_D2-07-DR1.jpg", n: "Ashish Singh", o: "Yoga teacher, Indian Cultural Centre Seoul", t: "Traditional Indian Hatha Yoga" },
       { img: "sp_D2-07-DR2.jpg", n: "Forest Interpreter", o: "Dream Forest Co.", t: "Doraejae Morning Forest Walk" },
-      { img: "sp_D2-07-EP1.jpg", n: "Yang Eun-hee", o: "Advanced instructor, Slow Jogging Korea", t: "Running Meditation" }
+      { img: "sp_D2-07-EP1.jpg", n: "Yang Eun-hee", o: "Advanced instructor, Slow Jogging Korea", t: "Running Meditation: Finding the Rhythm of Body and Mind through Slow Jogging" }
     ],
     tripsTitle: "Miryang Signature Trip · NEW 2026",
     tripsSub: "Optional day trip after the Sunday morning session (included in TRAVEL-PKG)",
@@ -166,8 +166,8 @@ window.I18N.en = {
     performers: [
       { n: "J-Tong", d: "Rapper. Trained and certified as a teacher at Anahata Yoga in Busan — which brought him to the conference." },
       { n: "Lee Sang-mi", d: "Singer from the band EX, known for the MBC College Song Festival grand-prize song 'Please Take Care of Me'." },
-      { n: "TEAM. ACLOW · Anahata · Korea Rhythmic Yoga", d: "Yoga performance teams" },
-      { n: "Indian classical dance · Miryang traditional performance", d: "Where Korean and Indian culture meet on stage" }
+      { n: "TEAM.ACLOW", d: "Yoga performance team" },
+      { n: "TEAM.Korea Rhythmic", d: "Yoga performance team" }
     ]
   },
   ground: {
@@ -188,10 +188,10 @@ window.I18N.en = {
       { icon: "🍽️", t: "Food Zone", d: "Miryang healthy food · Bombay Brau · Prami and more" },
       { icon: "🛝", t: "Retro Playground", d: "A play space for kids to run around" },
       { icon: "⛱️", t: "Parasol & Tent Rest Zone", d: "Shaded seating · picnics welcome" },
-      { icon: "🎪", t: "Four stages", d: "Main stage (14.4×9 m) and sub-stages for performances and group yoga" },
+      { icon: "🎪", t: "Main stage", d: "Opening and closing ceremonies, group yoga sessions and the Yoga Culture Concert" },
       { icon: "🛎️", t: "Operations HQ · Check-in desk", d: "09:30–20:30 · check-in 10–12 · luggage storage · lost & found" },
-      { icon: "🩹", t: "Medical support · Goods pick-up", d: "Booth 32 · first aid and goods pick-up" },
-      { icon: "🦶", t: "Indian-style Foot Spa", d: "Himalayan salt, herbs and aroma · 40 min KRW 10,000 · Sunday Oct 4 only" },
+      { icon: "🩹", t: "Medical support · Goods pick-up", d: "Booth 34 · first aid and goods pick-up" },
+      { icon: "🏛️", t: "Yoga Culture Town", d: "1-Sattva I (indoor), 2-Ananda (rooftop), Mahat wellness café and rest area · facilities open on Oct 4 (Sun)" },
       { icon: "☕", t: "Wellness Café 'Mahat'", d: "Indian herbal tea, yogi tea, coffee, wellness snacks · 20% off with a wristband" }
     ],
     mapTitle: "Booth map", mapCaption: "Yellow = booths (canopies), green = shade & playground, orange = stages. On-site layout may change.",
@@ -255,8 +255,8 @@ window.I18N.en = {
     shuttleWarn: "There are two lodgings — check the destination sign on the bus before boarding. Lodging shuttles stop 15 minutes at a supermarket.",
     lodgingTitle: "Lodging (FULL · TRAVEL-PKG)",
     lodging: [
-      { t: "Doraejae Natural Recreation Forest", d: "Navigate to 'Doraejae Natural Recreation Forest'. Inner parking limited to 24 cars by prior request; otherwise use the free lot at the entrance, or park at Yoga Culture Town and take the shuttle." },
-      { t: "Bohyeon Training Center", d: "Navigate to 'Daegu Health College Bohyeon Training Center'. On-site parking available; carpooling or shuttle recommended." },
+      { t: "Doraejae Natural Recreation Forest", d: "Navigate to 'Doraejae Natural Recreation Forest'. 24 on-site spaces by advance request; if full, park at Sunshine Miryang Theme Park and take the shuttle. Signature Trip participants: shuttle recommended." },
+      { t: "Bohyeon Training Center", d: "Navigate to 'Daegu Health College Bohyeon Training Center'. On-site parking available; Signature Trip participants: shuttle recommended." },
       { t: "Check-in · Check-out", d: "Check in via the lodging shuttle after the concert (early check-in before 20:00 requires a request to HQ). Check-out 11:00. Pension-style shared rooms (4/6/10 beds), no toiletries provided, simple cooking possible. Boxed breakfast at 08:30." }
     ]
   },
@@ -286,13 +286,12 @@ window.I18N.en = {
       { q: "Where can I leave my luggage?", a: "Free storage at the Yoga Culture Town info desk (09:30–20:30, numbered tags). Valuables cannot be stored — keep them with you. If taking the lodging shuttle, collect your bags right after the concert." },
       { q: "Lost and found?", a: "During the event, the Yoga Culture Town info desk collects and keeps lost items; they are kept for 3 weeks afterwards. For items lost at your lodging, contact the lodging first." },
       { q: "Can family members just share the lodging?", a: "We recommend companions buy a full package too. Families who only want lodging should ask the official KakaoTalk channel individually. Rooms are assigned in the order groups → shared-room requests → individuals." },
-      { q: "How do I get the goods?", a: "Wear your wristband on the day and collect at the designated pick-up point (Operations HQ · Booth 32). Eligible participants receive a text message before the event." }
+      { q: "How do I get the goods?", a: "Wear your wristband on the day and collect at the designated pick-up point (Operations HQ · Booth 34). Eligible participants receive a text message before the event." }
     ],
     contactTitle: "Contact",
     contact: [
       { icon: "💬", t: "KakaoTalk channel '밀양국제요가컨퍼런스'", d: "Wed–Sat 10:00–18:00" },
       { icon: "🌐", t: "Official website www.myyogaconference.kr", d: "Tickets · notices" },
-      { icon: "📞", t: "Sunshine Miryang Theme Park +82-55-359-2900", d: "Facility inquiries" }
     ]
   },
   footer: "Hosted by Miryang City · Organized by Viveka Yoga · With the Embassy of India, Indian Cultural Centre Seoul and others · This guide app is based on the official website and conference brochure.",

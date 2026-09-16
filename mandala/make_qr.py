@@ -26,7 +26,7 @@ cards = "".join(f'''
   <img class="qr" src="data:image/png;base64,{imgs[n]}" alt="">
   <p class="howto">휴대폰 카메라로 QR을 찍으세요<br><small>Scan with your phone camera · फ़ोन कैमरे से स्कैन करें</small></p>
   <p class="code">QR이 안 되면 앱에서 코드 입력 → <b>{SPOTS[n].upper()}</b></p>
-  <p class="foot">5개를 모으면 35번 부스에서 인생네컷 무료 출력 ✨<br>제10회 밀양국제요가컨퍼런스 · 가곡원류</p>
+  <p class="foot">5개를 모으면 36번 부스에서 인생네컷 무료 출력 ✨<br>제10회 밀양국제요가컨퍼런스 · 가곡원류</p>
 </section>''' for n in SPOTS)
 
 html = f'''<!DOCTYPE html><html lang="ko"><head><meta charset="utf-8"><title>골든만다라 표지판 (A4 인쇄용)</title>
