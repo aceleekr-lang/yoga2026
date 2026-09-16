@@ -191,7 +191,7 @@ window.I18N.en = {
       { icon: "🎪", t: "Main stage", d: "Opening and closing ceremonies, group yoga sessions and the Yoga Culture Concert" },
       { icon: "🛎️", t: "Operations HQ · Check-in desk", d: "09:30–20:30 · check-in 10–12 · luggage storage · lost & found" },
       { icon: "🩹", t: "Medical support · Goods pick-up", d: "Booth 34 · first aid and goods pick-up" },
-      { icon: "🏛️", t: "Yoga Culture Town", d: "1-Sattva I (indoor), 2-Ananda (rooftop), Mahat wellness café and rest area · facilities open on Oct 4 (Sun)" },
+      { icon: "🏛️", t: "Yoga Culture Town", d: "1-Sattva I (indoor), 2-Ananda (rooftop), Mahat wellness café and rest area · [[facilities open on Oct 4 (Sun)]]" },
       { icon: "☕", t: "Wellness Café 'Mahat'", d: "Indian herbal tea, yogi tea, coffee, wellness snacks · 20% off with a wristband" }
     ],
     mapTitle: "Booth map", mapCaption: "Yellow = booths (canopies), green = shade & playground, orange = stages. On-site layout may change.",
